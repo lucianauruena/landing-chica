@@ -1,0 +1,8 @@
+#hero-foto{
+    background: 
+        url(imagenes/hero-background.jpg);
+     background-image: 
+        url(imagenes/hero-background.jpg);   
+    background-size: cover;
+    background-position: center;
+}
