@@ -1,8 +1,46 @@
-#hero-foto{
-    background: 
-        url(imagenes/hero-background.jpg);
-     background-image: 
-        url(imagenes/hero-background.jpg);   
-    background-size: cover;
-    background-position: center;
+/*.navegador-noxu{
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px;
 }
+
+.boton-despegable{
+    overflow: visible;
+    color: black;
+    border-color: blueviolet;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+}
+.container-hero{
+    box-sizing: border-box;
+    background-size: 500px;
+}
+
+.foto{
+   min-width: 300px;
+   height: 550px;
+   max-height: 600px;
+   background-size: cover;
+   background-position: center center;
+   /*position: absolute;
+   display: block;
+   height: 400px;
+   left: 45px;
+   top: 60px; 
+   background-size: cover;
+   padding: 50px; 
+}
+.clearfix{
+    clear: both;
+}
+
+.container1{
+    position: absolute;
+    left: 366px;
+    top: 205px;
+}*/

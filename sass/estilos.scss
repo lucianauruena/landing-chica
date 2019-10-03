@@ -1,0 +1,61 @@
+.body{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navegador-noxu{
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.container-hero{
+    box-sizing: border-box;
+    background-size: 500px;
+}
+
+.foto{
+        /*min-width: 300px;
+        height: 550px;
+        max-height: 600px;*/
+        width: 969px;
+        background-position: center center;
+}
+
+.container1{
+    position: absolute;
+    left: 201px;
+    top: 234px;
+}
+
+.container2{
+    display: block;   
+    border-color: white;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    left: 391px;
+    top:5px;
+    width: 91px; 
+}
+
+.container2-1{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 78px;
+    width: 59px;
+    text-align: center;
+    position: relative;
+    left: 394px;
+    top: 15px;
+    font-size: 30px;
+}
+
+
+
