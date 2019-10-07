@@ -1,55 +1,46 @@
 <!DOCTYPE html>
     <html>
         <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <!--link imagen principal-->
             <link rel="stylesheet" href="imagenes/hero-background.jpg">
+            <!--link estilos SASS CSS-->
             <link rel="stylesheet" href="estilos/estilos.css">
+            <!--icono-->
             <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+            <!--font-->
             <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
             <style>
                   body{
                     background-color: black;
                     color: white;
+                    font-family: 'Roboto', sans-serif;
                   }
             </style>
         </head>
         <body> 
-            <nav class="navegador-noxu">
-                <div id="header" href="#">Noxu
-                <!--<button class="boton-despegable" type="button">
-                    <span class="icon"></span>
-                </button>-->
-                    <div class="despegable">
-                    <button class="boton" type="button"><i class="fa fa-bars" aria-hidden="true"></i></button>
-                        <ul class="despegable-on">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Woman</a>
-                            </li>
-                            <li class="nav-item">
-                                    <a class="nav-link" href="#">Man</a>
-                                </li>
-                            <li class="nav-item">
-                                    <a class="nav-link" href="#">Unisex</a>
-                            </li>
-                            <li class="nav-item drop">
-                                <a class="nav-link" href="#" role="button" data-toggle="dropdown">
-                                    Accesories
-                                </a>
-                                <div class="drop-2domenu">
-                                <ul>   
+            <!--menu despegable header-->
+                <section id="header" href="#">Noxu
+                    <button class="boton" type="button"><i class="fa fa-bars" aria-hidden="true"></i></button></section>
+                    <nav>    
+                    <ul class="despegable-on">
+                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Woman</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Man</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Unisex</a></li>
+                            <li class="nav-item drop"><a class="nav-link" href="#" role="button" data-toggle="dropdown">Accesories</a>
+                                <ul class="drop-submenu">   
                                         <li><a class="drop-item" href="#">Watches</a></li>
                                         <li><a class="drop-item" href="#">Chains</a></li>
                                         <li><a class="drop-item" href="#">Earings</a></li>
                                         <li><a class="drop-item" href="#">Hats</a></li>
-                                </ul>                                
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                </nav>
+                                </ul>
+                    </ul>
+                    </nav>
+                </section>
+            <!--foto principal con titulo-->    
             <section id="hero-foto" class="text-center">
                 <div class="container-hero">
                 <img src="imagenes/hero-background.jpg" class="foto">
@@ -57,56 +48,92 @@
                     <h1 class="limited"> LIMITED COLLECTION </h1>
                     <h2 class="Noxu-fabrics"> Noxu Fabrics International </h2>
                     </section></div><!--duda sobre el final de section y div-->
-            <section id="products" class="containter-products">
+                <!--View all y featured-->
+                <section id="products" class="containter-products">
                 <div class="container2">
                     <p class="view-all"> VIEW ALL </p></div>
                 <div class=container2-1>
                     <p class="featured"> Featured Products </p></div>
                 <div class="clothes">
-                    <div class= "tshirt">
-                        <img src="imagenes/001.jpg" width="350px">
-                        <p class="note1"> Abnormality plain white </p>
-                        <p class="price note1"> $17,99 </p>
-                        <div class="icon-star">
-                            <!--buscar los icons-->
+                    <!--<div class= "tshirt">-->
+                            <section>
+                                <img src="imagenes/001.jpg" width="350px">
+                                <p class="note1"> Abnormality plain white </p>
+                                <p class="price note1"> $17,99 </p>
+                                <div class="icon-star">
+                                    <!--buscar los icons-->
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                                    </div>
+                                </section>
+                        <section>
+                                <img src="imagenes/002.jpg" width="350px">
+                                <p class="note2">Denim jacket</p>
+                                <p class="price note2"> $49,99 </p>
+                            <div class="icon-star">
+                                <!--buscar los icons-->
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half" aria-hidden="true"></i>
+                                    </div>
+                            </section>
+                        <section>
+                                <img src="imagenes/003.jpeg" width="350px">
+                                <p class="note3"> Dark red bomber</p>
+                                <p class="price note3">$39,99</p>
+                            <div class="icon-star">
+                                <!--buscar los icons-->
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half" aria-hidden="true"></i>
+                            </div> 
+                        </section>
+                        <section>
+                            <img src="imagenes/004.jpg" width="350px">
+                            <p class="note4">Ripped blue</p>
+                            <p class="price note4">$39,99</p>
+                            <div class="icon-star">
+                                <!--buscar los icons-->
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half" aria-hidden="true"></i>
                             </div>
-                      </div>
-                    </div>
-                <div class="jacket">
-                        <img src="imagenes/002.jpg" width="350px">
-                        <p class="note2">Denim jacket</p>
-                        <p class="price note2"> $49,99 </p>
-                       <div class="icon-star">
-                            <!--buscar los icons-->
-                          </div>
-                <div class="bomber">
-                    <img src="imagenes/003.jpeg" width="350px">
-                    <p class="note3"> Dark red bomber</p>
-                    <p class="price note3">$39,99</p>
-                   <div class="icon-star">
-                       <!--buscar los icons-->
-                   </div> 
-                <div class="ripped">
-                    <img src="imagenes/004.jpg" width="350px">
-                    <p class="note4">Ripped blue</p>
-                    <p class="price note4">$39,99</p>
-                    <div class="icon-star">
-                        <!--buscar los icons-->
-                    </div>
-                <div class="spooky">
-                    <img src="imagenes/005.jpeg" width="350px">
-                    <p class="note5">Spooky fingers</p>
-                    <p class="price note5">$34,99</p>
-                    <div class="icon-star">
-                        <!--buscar los icons-->
-                    </div>
-                <div class="xmas">
-                    <img src="imagenes/006.jpeg" width="350px">
-                    <p class="note6">Early x-mas party</p>
-                    <p class="price note6">$44,99</p>
-                    <div class="icon-star">
-                        <!--buscar los icons-->
-                    </div>
+                        </section>
+                        <section>
+                            <img src="imagenes/005.jpeg" width="350px">
+                            <p class="note5">Spooky fingers</p>
+                            <p class="price note5">$34,99</p>
+                            <div class="icon-star">
+                                <!--buscar los icons-->
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half" aria-hidden="true"></i>
+                            </div>
+                            </section>
+                        <section>
+                            <img src="imagenes/006.jpeg" width="350px">
+                            <p class="note6">Early x-mas party</p>
+                            <p class="price note6">$44,99</p>
+                            <div class="icon-star">
+                                <!--buscar los icons-->
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half" aria-hidden="true"></i>
+                            </div>
+                        </section>
                 </div>
                 </div>
             </section>
@@ -130,8 +157,8 @@
                     <p class="outfits">OUTFITS</p>
                 </div>
             </section>
-    <footer id="footer" class="container4">
-           <div class="footer2">
+    <footer>
+           <div class="know">
                <h4>Get to know us</h4>
             </div>
             <div class="address">
@@ -146,8 +173,7 @@
                 <h5>Contact info</h5>
                 <p><span class="phone"> Phone number</span>
                 <br>
-                "
-                (323) - 555 - 5555"
+                (323) - 555 - 5555
                 </p>
             </div>
             <div class="mail">
@@ -164,7 +190,7 @@
         <div class="Feedback">
            <h7 class="fback">Feedback</h7>
                 <p>Thank you for browsing the site, please feel free to give us feedback in the survey below.</p>
-           <a href="#" class="bottom-survey">Take Survey</a>
+           <button><a href="#" class="bottom-survey">Take Survey</a></button>
            <h8 class="fback">Information</h8>
            <p>
             <a href="#">Privacy policy</a>
